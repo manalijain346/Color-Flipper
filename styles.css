@@ -21,10 +21,29 @@ body{
 
 }
 
+.sub-heading{
+    color: white;
+    background-color: black;
+    padding: 18px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+
 .btn{
-    padding: 4px;
-    width: 146px;
+    margin-top: 20px;
     font-weight: 700;
-    border:1px solid black;
-    border-radius: 3px;
+    border-radius: 4px;
+    color: black;
+    background: transparent;
+    display: inline-block;
+    transition: all 0.3s linear;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.btn:hover{
+    color: white;
+    background-color:black;
 }
